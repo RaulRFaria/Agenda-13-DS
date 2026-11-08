@@ -1,0 +1,20 @@
+REGISTRO DAS INTERAÇÕES COM A IA
+Tema: Meu Portal de Entretenimento Digital
+
+ETAPA 1 - ESTRUTURA HTML
+Pergunta: IA, revise minha estrutura HTML. Estou usando corretamente as tags div, h1 e img?
+Orientação da IA: Use h1 para o título principal, h2 para os títulos das seções e img com src e alt. Para separar os assuntos, a tag section é mais clara do que várias divs.
+O que foi aplicado: Um h1 no cabeçalho, três seções com h2 e duas imagens em cada seção.
+
+ETAPA 2 - CSS INTERNO E EXTERNO
+Pergunta: IA, como posso definir estilos diferentes para cada seção usando classes e IDs?
+Orientação da IA: Use a mesma classe para os estilos em comum e IDs para mudar detalhes de cada seção.
+O que foi aplicado: A classe titulo-secao define o visual dos títulos; os IDs filmes, musica e games mudam as cores. O h1 usa CSS interno e o rodapé usa CSS inline.
+
+ETAPA 3 - FLEXBOX
+Pergunta: IA, me ajude a configurar o layout flexível com três colunas ajustáveis.
+Orientação da IA: Use display: flex na classe container e flex: 1 em cada seção. Em telas menores, mude flex-direction para column.
+O que foi aplicado: Três colunas no computador e uma coluna no celular.
+
+RESULTADO
+Foram usados HTML, CSS inline, CSS interno, CSS externo, CSS Reset e Flexbox, com comentários para facilitar o entendimento.
